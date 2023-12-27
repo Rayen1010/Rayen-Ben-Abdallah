@@ -1,15 +1,22 @@
-Description du travail :
-Structures de données :
-Voyageur : Contient des informations sur un voyageur telles que le nom, le prénom et l'âge.
-Bus : Représente les détails d'un bus comme son numéro, sa destination, sa capacité totale et le nombre de places disponibles.
-Reservation : Stocke les informations sur une réservation, notamment le numéro de réservation, le numéro du bus et les détails du voyageur associé à cette réservation.
-Fonctions :
-creer_voyageur() : Alloue dynamiquement de la mémoire pour créer un nouveau voyageur avec les détails spécifiés (nom, prénom, âge).
-creer_reservation() : Alloue dynamiquement de la mémoire pour créer une nouvelle réservation avec les détails spécifiés (numéro de réservation, numéro de bus, nom et prénom du voyageur).
-afficher_details_bus() : Affiche les détails d'un bus spécifique passé en argument.
-afficher_modifier_reservation() : Affiche les détails d'une réservation et permet à l'utilisateur de les modifier si nécessaire.
-Logique du programme :
-Initialisation des données : Création de voyageurs, déclaration de bus avec leurs détails et création de réservations associées à des voyageurs sur des bus spécifiques.
-Affichage des détails : Affiche les détails des bus créés et des réservations effectuées.
-Modification des réservations : Pour chaque réservation, le programme demande à l'utilisateur s'il souhaite modifier les détails. Si l'utilisateur le souhaite, il peut modifier le numéro du bus, le nom et le prénom du voyageur associé à la réservation.
-Libération de la mémoire : Utilisation de la fonction free() pour libérer la mémoire allouée dynamiquement pour les voyageurs et les réservations à la fin du programme, évitant ainsi les fuites de mémoire.
+ 
+Nom de l'entreprise : Système de Réservation de Voyages en Bus  
+
+Description :
+Cette entreprise offre un système automatisé de réservation pour les voyages en bus. Elle permet aux utilisateurs de réserver des sièges dans des bus pour différentes destinations, enregistrer des détails personnels des voyageurs et gérer efficacement les réservations.
+
+Services proposés :
+
+Réservations de Bus : Offrir la possibilité de réserver des sièges dans différents bus pour des destinations variées.
+Gestion des Voyageurs : Enregistrer les détails des voyageurs tels que leur nom, prénom et âge pour une expérience de réservation personnalisée.
+Modification de Réservations : Permettre aux clients de modifier certaines informations de leur réservation, comme le numéro de bus ou les détails du voyageur.
+Capacité et Disponibilité des Places : Fournir des informations sur la capacité totale du bus et les places disponibles pour chaque réservation.
+Objectifs de l'entreprise :
+
+Offrir un service de réservation simple et efficace pour les voyages en bus.
+Assurer la satisfaction des clients en permettant la personnalisation et la flexibilité des réservations.
+Maintenir un contrôle précis sur la capacité et la disponibilité des sièges dans les bus.
+Avantages compétitifs :
+
+Interface utilisateur conviviale pour faciliter les réservations.
+Flexibilité dans la modification des réservations pour s'adapter aux changements de plan des clients.
+Suivi précis de la disponibilité des places pour éviter les surréservations ou les erreurs.
